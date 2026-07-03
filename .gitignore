@@ -1,0 +1,73 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# MLflow
+# ==========================
+mlruns/
+mlflow.db
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
+~$*
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Python cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Model artifacts
+# (KEEP THIS COMMENTED because
+# you WANT to upload your model)
+# ==========================
+# models/*.pkl
+
+# ==========================
+# Environment variables
+# ==========================
+.env
