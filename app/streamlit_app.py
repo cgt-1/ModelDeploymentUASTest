@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 st.title(
-    "🏦 Credit Score Prediction System"
+    "Credit Score Prediction System"
 )
 
 st.write(
@@ -57,7 +57,7 @@ payment_options = sorted(
 
 
 
-st.header("👤 Personal Information")
+st.header("Personal Information")
 
 age = st.number_input(
     "Age",
@@ -72,7 +72,7 @@ occupation = st.selectbox(
 )
 
 
-st.header("💰 Income Information")
+st.header("Income Information")
 
 annual_income = st.number_input(
     "Annual Income",
@@ -87,7 +87,7 @@ monthly_salary = st.number_input(
 )
 
 
-st.header("🏦 Banking Information")
+st.header("Banking Information")
 
 num_bank_accounts = st.number_input(
     "Number of Bank Accounts",
@@ -130,7 +130,7 @@ credit_mix = st.selectbox(
 )
 
 
-st.header("📈 Credit Information")
+st.header("Credit Information")
 
 outstanding_debt = st.number_input(
     "Outstanding Debt",
@@ -226,4 +226,4 @@ if st.button(
 
         st.error(
             f"🔴 Predicted Credit Score: {prediction}"
-        )
+            )
